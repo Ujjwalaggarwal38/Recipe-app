@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Farmersapp</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="tag">DIRECT ACCESS</string>
+    <string name="tagl">BETTER RETURNS</string>
+    <string name="otp">OTP VERIFICATION</string>
+    <string name="first">We will send you one-time</string>
+    <string name="second">password to your Mobile number</string>
+    <string name="mobile">Enter Mobile Number</string>
+    <string name="getotp">Get OTP</string>
+    <string name="otpsent">Enter the OTP sent to +91</string>
+    <string name="verify">Verify</string>
+    <string name="create">Create</string>
+    <string name="acc">Account</string>
+    <string name="gender">Gender</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="add">Address</string>
+    <string name="sign">Sign Up</string>
+    <string name="signins">Guest Login</string>
+    <string name="sixotp">Enter 6-digit OTP</string>
+    <string name="scores">Scores &amp; Rewards</string>
+    <string name="smart">Smart Farming</string>
+    <string name="financial">Financial Services</string>
+    <string name="green">Green Logistics</string>
+    <string name="home">Home</string>
+    <string name="sell">Sell</string>
+    <string name="transaction">Transaction</string>
+    <string name="profile">Profile</string>
+    <string name="sellactivity">Sell Screen</string>
+    <string name="searchhere">Search here</string>
+    <string name="price">Price</string>
+    <string name="croptype">Crop type</string>
+    <string name="cropname">Crop name</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+</resources>

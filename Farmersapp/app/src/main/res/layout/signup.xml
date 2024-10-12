@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="380dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="23dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ellipse_one" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="-180dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
+        app:srcCompat="@drawable/ellipse_two" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/language"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        app:backgroundTint="#AAA6A6"
+        app:elevation="7dp"
+        app:fabCustomSize="50dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:maxImageSize="40dp"
+        app:srcCompat="@drawable/language_translation" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back1"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="-360dp"
+        android:layout_marginTop="-150dp"
+        android:clickable="true"
+        app:backgroundTint="#C8C1C1"
+        app:fabCustomSize="51dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/group" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/group" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/group" />
+
+    <EditText
+        android:id="@+id/nametext"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-280dp"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <EditText
+        android:id="@+id/nametext2"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-280dp"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/gender"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <EditText
+        android:id="@+id/phonetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-280dp"
+        android:layout_marginTop="-60dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:padding="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/forwardbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-100dp"
+        android:layout_marginTop="280dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:elevation="7dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
+
+    <EditText
+        android:id="@+id/addresstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-280dp"
+        android:layout_marginTop="241dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="@string/add"
+        android:inputType="text"
+        android:maxLength="30"
+        android:padding="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/group" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="-170dp"
+        android:background="@null"
+        android:elevation="16dp"
+        android:text="@string/signins"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="83dp"
+        android:text="@string/sign"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/language"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/create"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="-10dp"
+            android:text="@string/acc"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
